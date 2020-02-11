@@ -24,10 +24,10 @@ public slots:
     void digits_numbers();
     void on_pushButton_dot_clicked();
     void backspaceClicked();
-    void minusClicked();
-    void plusClicked();
-    void miltiplicationClicked();
-    void divisionClicked();
+//    void minusClicked();
+//    void plusClicked();
+//    void miltiplicationClicked();
+//    void divisionClicked();
 
 
 signals:
@@ -48,15 +48,15 @@ private slots:
 
 
 
-    void on_pushButton_multiplication_clicked();
+//    void on_pushButton_multiplication_clicked();
 
-    void on_pushButton_minus_clicked();
+//    void on_pushButton_minus_clicked();
 
-    void on_pushButton_plus_clicked();
+//    void on_pushButton_plus_clicked();
 
-    void on_pushButton_division_clicked();
+//    void on_pushButton_division_clicked();
 
-    void on_pushButton_equally_clicked();
+//    void on_pushButton_equally_clicked();
 
 private:
     Ui::MainWindow *ui;
